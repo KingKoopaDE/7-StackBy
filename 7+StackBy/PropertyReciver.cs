@@ -16,13 +16,8 @@ namespace Win7_Plus_StackBy
 
             PSEnumeratePropertyDescriptions(filter, typeof(IPropertyDescriptionList).GUID, out IPropertyDescriptionList list);
 
-
-            int j = 0;
-            int c = 0;
-            int a = 0;
             for (int i = 0; i < list.GetCount(); i++)
             {
-                c++;
                 IPropertyDescription pd = list.GetAt(i, typeof(IPropertyDescription).GUID);
 
                 PROPERTYKEY pk = pd.GetPropertyKey();

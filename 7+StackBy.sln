@@ -18,6 +18,7 @@ Global
 		{62452F0F-3573-44D7-A394-333AD571BB08}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62452F0F-3573-44D7-A394-333AD571BB08}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DBF01C24-FAB1-43C9-B831-65884CAF8CF9}.Debug|Any CPU.ActiveCfg = Debug
+		{DBF01C24-FAB1-43C9-B831-65884CAF8CF9}.Debug|Any CPU.Build.0 = Debug
 		{DBF01C24-FAB1-43C9-B831-65884CAF8CF9}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution

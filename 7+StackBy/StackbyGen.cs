@@ -58,7 +58,7 @@ namespace Win7_Plus_StackBy
 
         private void buttonGenerateSearchMS_Click(object sender, EventArgs e)
         {
-            if (Directory.Exists(textBoxSelectedFolder.Text))
+            if (Directory.Exists(textBoxSelectedFolder.Text) && comboBoxPropertys.SelectedItem != null)
             {
 
 
@@ -70,6 +70,7 @@ namespace Win7_Plus_StackBy
 
                     try
                     {
+
                         SearchQuerySaver sq = new SearchQuerySaver(Path.GetDirectoryName(saveFileDialog1.FileName), (Property)comboBoxPropertys.SelectedItem);
                         if (!File.Exists(saveFileDialog1.FileName))
                             File.Create(saveFileDialog1.FileName).Close();
@@ -81,22 +82,32 @@ namespace Win7_Plus_StackBy
 
                     catch (Exception ex)
                     {
-                        MessageBox.Show(ex.Message);
+                        //MessageBoxEx can Center Msgboxes :)
+                        MessageBoxEx.Show(this,ex.Message, "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
 
 
                 }
 
-                else if (String.IsNullOrEmpty(textBoxSelectedFolder.Text))
-                {
-                    MessageBox.Show("No Path selected");
-                }
-
-                else
-                {
-                    MessageBox.Show("Path does not exist");
-                }
             }
+
+            else if (comboBoxPropertys.SelectedItem == null)
+            {
+                MessageBoxEx.Show(this, "No Property selected", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            }
+
+            else if (String.IsNullOrEmpty(textBoxSelectedFolder.Text))
+            {
+                MessageBoxEx.Show(this,"No Query Folder Path selected","Information",MessageBoxButtons.OK,MessageBoxIcon.Information);
+            }
+
+            else
+            {
+                MessageBoxEx.Show(this,"Query Folder Path does not exist", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+
+
         }
 
     }
