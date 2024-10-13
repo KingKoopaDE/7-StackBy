@@ -39,6 +39,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_03BF33D8587347CF8266642B4D8DF2C4"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_0523B9F456130CB387686E3355D67C56"
         "OwnerKey" = "8:_7460ED283FB74F66B6AAF58E286DDC7F"
         "MsmSig" = "8:_UNDEFINED"
@@ -1547,6 +1553,26 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_03BF33D8587347CF8266642B4D8DF2C4"
+            {
+            "SourcePath" = "8:..\\7+StackBy\\readme.rtf"
+            "TargetName" = "8:readme.rtf"
+            "Tag" = "8:"
+            "Folder" = "8:_160D3F2C01F540BB92F93985EE76FD72"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:TRUE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_0523B9F456130CB387686E3355D67C56"
@@ -4996,7 +5022,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:7+Stackby"
         "ProductCode" = "8:{6CF66941-ECB4-4FE2-B978-C7ED178E0AB1}"
-        "PackageCode" = "8:{7046EAC7-7896-450F-A00B-9D00ADC80954}"
+        "PackageCode" = "8:{D3B14DA6-BE0C-49E2-B8C5-15620C1F0AEE}"
         "UpgradeCode" = "8:{73320ABA-3DE5-4BE7-A7AC-852A4592A965}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -5339,6 +5365,53 @@
                             }
                         }
                     }
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_6B01C60B1E76427EADD65C962DBD3FCE"
+                    {
+                    "Sequence" = "3:110"
+                    "DisplayName" = "8:Lizenzvertrag"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdLicenseDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "EulaText"
+                            {
+                            "Name" = "8:EulaText"
+                            "DisplayName" = "8:#1008"
+                            "Description" = "8:#1108"
+                            "Type" = "3:6"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:2"
+                            "Value" = "8:_03BF33D8587347CF8266642B4D8DF2C4"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Sunken"
+                            {
+                            "Name" = "8:Sunken"
+                            "DisplayName" = "8:#1007"
+                            "Description" = "8:#1107"
+                            "Type" = "3:5"
+                            "ContextData" = "8:4;True=4;False=0"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:4"
+                            "DefaultValue" = "3:4"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
                 }
             }
             "{2479F3F5-0309-486D-8047-8187E2CE5BA0}:_67444C6648874C9C920DF39A3DD2A078"
@@ -5505,6 +5578,53 @@
                             }
                         }
                     }
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_E1AD452B4E87434685C0AA8FB178A78B"
+                    {
+                    "Sequence" = "3:110"
+                    "DisplayName" = "8:Lizenzvertrag"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminLicenseDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "EulaText"
+                            {
+                            "Name" = "8:EulaText"
+                            "DisplayName" = "8:#1008"
+                            "Description" = "8:#1108"
+                            "Type" = "3:6"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:2"
+                            "Value" = "8:_03BF33D8587347CF8266642B4D8DF2C4"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Sunken"
+                            {
+                            "Name" = "8:Sunken"
+                            "DisplayName" = "8:#1007"
+                            "Description" = "8:#1107"
+                            "Type" = "3:5"
+                            "ContextData" = "8:4;True=4;False=0"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:4"
+                            "DefaultValue" = "3:4"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_F8F966720BA54FF1B72059F4EC541BDF"
                     {
                     "Sequence" = "3:200"
@@ -5625,7 +5745,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_7460ED283FB74F66B6AAF58E286DDC7F"
             {
-            "SourcePath" = "8:..\\7+StackBy\\obj\\Release\\7+StackBy.exe"
+            "SourcePath" = "8:..\\7+StackBy\\obj\\Debug\\7+StackBy.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_160D3F2C01F540BB92F93985EE76FD72"
