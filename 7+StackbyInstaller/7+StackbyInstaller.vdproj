@@ -4,9 +4,9 @@
 "ProjectType" = "8:{978C614F-708E-4E1A-B201-565925725DBA}"
 "IsWebType" = "8:FALSE"
 "ProjectName" = "8:7+StackbyInstaller"
-"LanguageId" = "3:1031"
+"LanguageId" = "3:1033"
 "CodePage" = "3:1252"
-"UILanguageId" = "3:1031"
+"UILanguageId" = "3:1033"
 "SccProjectName" = "8:"
 "SccLocalPath" = "8:"
 "SccAuxPath" = "8:"
@@ -3246,7 +3246,7 @@
             "SharedLegacy" = "11:FALSE"
             "PackageAs" = "3:1"
             "Register" = "3:1"
-            "Exclude" = "11:TRUE"
+            "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
@@ -3866,7 +3866,7 @@
             "SharedLegacy" = "11:FALSE"
             "PackageAs" = "3:1"
             "Register" = "3:1"
-            "Exclude" = "11:TRUE"
+            "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
@@ -5046,22 +5046,22 @@
         }
         "MsiBootstrapper"
         {
-        "LangId" = "3:1031"
+        "LangId" = "3:1033"
         "RequiresElevation" = "11:FALSE"
         }
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:7+Stackby"
-        "ProductCode" = "8:{3A9A6E8D-A48A-45E5-A7B9-BB7C00175927}"
-        "PackageCode" = "8:{F731BBC6-BFB8-4765-8B96-728BE8E18D9E}"
+        "ProductCode" = "8:{C4C8D064-8DB8-4E47-A911-0E930409DFB8}"
+        "PackageCode" = "8:{485AC6B4-A734-4336-BE2F-22AD2D44D6CD}"
         "UpgradeCode" = "8:{73320ABA-3DE5-4BE7-A7AC-852A4592A965}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:1.0.4"
+        "ProductVersion" = "8:1.0.5"
         "Manufacturer" = "8:KingKoopaDE (CHR)"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:https://github.com/KingKoopaDE/7-StackBy"
@@ -5777,7 +5777,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_7460ED283FB74F66B6AAF58E286DDC7F"
             {
-            "SourcePath" = "8:..\\7+StackBy\\obj\\Debug\\7+StackBy.exe"
+            "SourcePath" = "8:..\\7+StackBy\\obj\\Release\\7+StackBy.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_160D3F2C01F540BB92F93985EE76FD72"
